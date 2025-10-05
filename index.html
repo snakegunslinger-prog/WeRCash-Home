@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WeRCash — Stack Bonus Income the WeRCash Way</title>
+  <meta name="description" content="WeRCash: Claim your SoFi $25 bonus, learn the Acorns referral system, and use our eBay Hustle Playbook. Tutorials, scripts, and video walk‑throughs." />
+  <link rel="canonical" href="https://www.wercash.com/" />
+  <meta name="theme-color" content="#7AC143" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="WeRCash — Stack Bonus Income the WeRCash Way" />
+  <meta property="og:description" content="Claim the SoFi $25 bonus and level up with our Acorns system and eBay playbook." />
+  <meta property="og:url" content="https://www.wercash.com/" />
+  <meta property="og:image" content="/og-weRcash.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{
+      --wc-green:#7AC143; /* brand green to match logo */
+      --wc-green-dark:#5da027;
+      --wc-gray:#8a8a8a;  /* logo gray */
+      --wc-bg:#0b0b0c;    /* deep slate/near black */
+    }
+    html{scroll-behavior:smooth}
+    body{font-feature-settings:"ss01" on,"ss02" on}
+    .glass{background:linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,.05));backdrop-filter:blur(10px)}
+    .brand-gradient{background-image:linear-gradient(135deg,var(--wc-green) 0%, #a3e06d 40%, #c8f09b 100%)}
+    .btn-primary{background:var(--wc-green);color:#0b1a06}
+    .btn-primary:hover{background:var(--wc-green-dark)}
+    .btn-outline{border:1px solid rgba(255,255,255,.18)}
+  </style>
+
+  <!-- JSON-LD shells (populated later if needed) -->
+  <script type="application/ld+json" id="faq-jsonld"></script>
+  <script type="application/ld+json" id="products-jsonld"></script>
+</head>
+<body class="bg-[var(--wc-bg)] text-zinc-100">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-[var(--wc-bg)]/80 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+      <a href="#top" class="flex items-center gap-3">
+        <img src="/wercash.png" alt="WeRCash logo" class="h-9 w-auto"/>
+        <span class="text-sm font-extrabold tracking-wider">WeRCash</span>
+      </a>
+      <nav class="hidden gap-6 text-sm font-medium md:flex">
+        <a class="hover:text-[var(--wc-green)]" href="#sofi">SoFi Bonus</a>
+        <a class="hover:text-[var(--wc-green)]" href="#ebooks">E‑Books</a>
+        <a class="hover:text-[var(--wc-green)]" href="#video">Video</a>
+        <a class="hover:text-[var(--wc-green)]" href="#how">How It Works</a>
+        <a class="hover:text-[var(--wc-green)]" href="#faq">FAQ</a>
+      </nav>
+      <a href="#get-started" class="rounded-xl px-4 py-2 text-sm font-semibold btn-primary">Start Free</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="relative overflow-hidden">
+    <div class="absolute -inset-x-20 -top-40 h-[28rem] brand-gradient blur-3xl opacity-20"></div>
+    <div class="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      <div class="grid items-center gap-10 lg:grid-cols-2">
+        <div>
+          <h1 class="text-4xl font-black tracking-tight sm:text-5xl">Stack Bonus Income — <span class="text-[var(--wc-green)]">the WeRCash Way</span></h1>
+          <p class="mt-4 max-w-xl text-zinc-300">Start with the <strong class="text-[var(--wc-green)]">$25 SoFi</strong> bonus, then scale with our <strong>Acorns Referral System</strong> and <strong>eBay Hustle Playbook</strong>. Screenshots, scripts, and short videos included.</p>
+          <div class="mt-6 flex flex-wrap items-center gap-3">
+            <a id="cta-start" href="#get-started" class="rounded-xl px-5 py-3 font-semibold btn-primary">Get Started Free</a>
+            <a href="#ebooks" class="rounded-xl px-5 py-3 font-semibold btn-outline hover:bg-white/5">View Playbooks</a>
+          </div>
+          <p class="mt-3 text-xs text-zinc-400">*Bank terms apply. Bonuses subject to change by providers. Always read official terms.</p>
+        </div>
+        <!-- Right side: visual block with WeRCash + SoFi logos side by side -->
+        <div class="glass rounded-2xl p-6 ring-1 ring-white/10">
+          <div class="grid grid-cols-2 gap-6 items-center">
+            <div class="flex flex-col items-center justify-center gap-3">
+              <img src="/wercash.png" alt="WeRCash" class="h-16 w-auto"/>
+              <div class="text-xs uppercase tracking-widest text-zinc-400">WeRCash</div>
+            </div>
+            <div class="flex flex-col items-center justify-center gap-3">
+              <img src="/sofi-logo.png" alt="SoFi" class="h-10 w-auto"/>
+              <div class="text-xs uppercase tracking-widest text-zinc-400">SoFi</div>
+            </div>
+          </div>
+          <ul class="mt-6 grid gap-3 text-sm text-zinc-300">
+            <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[var(--wc-green)]"></span> $25 SoFi bonus with qualifying $50 deposit*</li>
+            <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[var(--wc-green)]"></span> Plug‑and‑play Acorns referral system</li>
+            <li class="flex items-center gap-2"><span class="h-2 w-2 rounded-full bg-[var(--wc-green)]"></span> eBay Hustle Playbook with SEO titles & photo angles</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Started / SoFi -->
+  <section id="get-started" class="border-y border-white/10 bg-black/40">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="grid items-start gap-8 lg:grid-cols-2">
+        <div id="sofi" class="rounded-2xl border border-white/10 bg-black p-6">
+          <div class="mb-4 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-[var(--wc-green)] ring-1 ring-[var(--wc-green)]/50">Step 1</div>
+          <div class="flex items-center gap-3">
+            <img src="/sofi-logo.png" alt="SoFi" class="h-8 w-auto"/>
+            <h2 class="text-2xl font-bold">Claim your SoFi $25 bonus</h2>
+          </div>
+          <p class="mt-2 text-zinc-300">Open a SoFi bank account using our link, deposit $50, and — per SoFi’s terms — you’ll earn a $25 bonus.</p>
+          <div class="mt-4 flex flex-wrap items-center gap-3">
+            <!-- Both buttons go to the SAME SoFi link you provided -->
+            <a id="sofi-link" target="_blank" rel="noopener" href="https://www.sofi.com/invite/money?gcp=76dc21d2-0562-4081-ab2f-a94bc6221dbc&isAliasGcp=false" class="rounded-xl px-5 py-3 font-semibold btn-primary">Open SoFi</a>
+            <a id="sofi-kit25" target="_blank" rel="noopener" href="https://www.sofi.com/invite/money?gcp=76dc21d2-0562-4081-ab2f-a94bc6221dbc&isAliasGcp=false" class="rounded-xl px-5 py-3 font-semibold btn-outline hover:bg-white/5">KIT25</a>
+            <button id="copy-sofi" class="rounded-xl px-4 py-3 text-sm font-semibold btn-outline hover:bg-white/5">Copy link</button>
+          </div>
+          <p class="mt-3 text-xs text-zinc-500">We may earn a commission. This helps us create more free guides.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-black p-6">
+          <div class="mb-4 inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold text-[var(--wc-green)] ring-1 ring-[var(--wc-green)]/50">Then</div>
+          <h3 class="text-xl font-bold">Level up with our proven playbooks</h3>
+          <ul class="mt-3 grid gap-4 text-zinc-300">
+            <li class="flex items-start gap-3">
+              <div class="mt-1 h-2 w-2 rounded-full bg-[var(--wc-green)]"></div>
+              <div><strong>Acorns Referral System:</strong> No‑investment walkthrough to spin up referrals and unlock promos.</div>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="mt-1 h-2 w-2 rounded-full bg-[var(--wc-green)]"></div>
+              <div><strong>eBay Hustle Playbook:</strong> Product picks, listing templates, titles, and fast photo tips that sell.</div>
+            </li>
+          </ul>
+          <a href="#ebooks" class="mt-5 inline-block rounded-xl px-5 py-3 font-semibold btn-primary">Browse Playbooks</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- E‑Books / Etsy -->
+  <section id="ebooks" class="relative">
+    <div class="absolute inset-x-0 -z-10 h-40 -skew-y-3 brand-gradient opacity-15"></div>
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="mb-8 flex items-end justify-between gap-4">
+        <h2 class="text-3xl font-black">Playbooks & Systems</h2>
+        <a href="#faq" class="text-sm text-zinc-300 hover:text-white">Questions? See FAQ →</a>
+      </div>
+      <div class="grid gap-6 md:grid-cols-2">
+        <!-- Acorns Referral System -->
+        <article class="group rounded-2xl border border-white/10 bg-black p-6">
+          <div class="mb-4 h-40 w-full rounded-xl bg-gradient-to-br from-[var(--wc-green)]/30 to-white/5 transition group-hover:from-[var(--wc-green)]/50"></div>
+          <h3 class="text-xl font-bold">Acorns Referral System — No Investment Needed</h3>
+          <p class="mt-2 text-zinc-300">Step‑by‑step scripts and a hands‑on funnel to capture promos without risking your own cash up front.</p>
+          <div class="mt-4 flex flex-wrap items-center gap-3">
+            <a id="etsy-acorns" target="_blank" rel="noopener" href="https://www.etsy.com/listing/4306380021/acorns-referral-system-no-investment?ref=shop_home_active_9&dd=1&logging_key=2f38e06952552db62405b5d0fb6e25ed9f7b7f14%3A4306380021" class="rounded-xl px-5 py-3 font-semibold btn-primary">Buy on Etsy</a>
+            <a href="#how" class="rounded-xl px-4 py-3 text-sm font-semibold btn-outline hover:bg-white/5">How it works</a>
+          </div>
+        </article>
+        <!-- eBay Hustle Playbook -->
+        <article class="group rounded-2xl border border-white/10 bg-black p-6">
+          <div class="mb-4 h-40 w-full rounded-xl bg-gradient-to-br from-white/10 to-[var(--wc-green)]/20 transition"></div>
+          <h3 class="text-xl font-bold">eBay Hustle Playbook</h3>
+          <p class="mt-2 text-zinc-300">Learn fast product research, SEO‑tight titles, listing flow, and photo angles that drive clicks and sales.</p>
+          <div class="mt-4 flex flex-wrap items-center gap-3">
+            <a id="etsy-ebay" target="_blank" rel="noopener" href="https://www.etsy.com/listing/4349806192/ebay-hustle-playbook?ref=shop_home_active_13&dd=1&logging_key=460497133b2dde94afd07dc0118f967958414702%3A4349806192" class="rounded-xl px-5 py-3 font-semibold btn-primary">Buy on Etsy</a>
+            <a href="#how" class="rounded-xl px-4 py-3 text-sm font-semibold btn-outline hover:bg-white/5">See inside</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video section: YouTube channel + SoFi shorts embed -->
+  <section id="video" class="border-y border-white/10 bg-black/40">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="grid items-start gap-8 lg:grid-cols-2">
+        <div class="rounded-2xl border border-white/10 bg-black p-6">
+          <h2 class="text-2xl font-bold">Watch: SoFi Sign‑Up Walkthrough</h2>
+          <div class="mt-4 aspect-video w-full overflow-hidden rounded-xl ring-1 ring-white/10">
+            <iframe class="h-full w-full" src="https://www.youtube.com/embed/_rEE3TCPOls" title="SoFi sign up — WeRCash" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <a target="_blank" rel="noopener" href="https://www.sofi.com/invite/money?gcp=76dc21d2-0562-4081-ab2f-a94bc6221dbc&isAliasGcp=false" class="mt-4 inline-block rounded-xl px-5 py-3 font-semibold btn-primary">Open SoFi from Video</a>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-black p-6">
+          <h3 class="text-xl font-bold">Subscribe to WeRCash on YouTube</h3>
+          <p class="mt-2 text-zinc-300">Short, straight‑to‑the‑point videos on bonuses and beginner‑friendly hustles.</p>
+          <a target="_blank" rel="noopener" href="https://www.youtube.com/@WeRSnakeNation" class="mt-4 inline-flex items-center gap-2 rounded-xl px-5 py-3 font-semibold btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"><path d="M23.498 6.186a3 3 0 0 0-2.113-2.122C19.535 3.5 12 3.5 12 3.5s-7.535 0-9.385.564A3 3 0 0 0 .502 6.186C0 8.04 0 12 0 12s0 3.96.502 5.814a3 3 0 0 0 2.113 2.122C4.465 20.5 12 20.5 12 20.5s7.535 0 9.385-.564a3 3 0 0 0 2.113-2.122C24 15.96 24 12 24 12s0-3.96-.502-5.814ZM9.75 15.5v-7l6.5 3.5-6.5 3.5Z"/></svg>
+            Subscribe on YouTube
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how" class="bg-black/30">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-black">How WeRCash Works</h2>
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        <div class="rounded-2xl border border-white/10 bg-black p-6">
+          <div class="mb-2 text-sm font-semibold text-[var(--wc-green)]">1. Quick Win Bonus</div>
+          <p class="text-zinc-300">Start with SoFi. Open, deposit $50, earn $25* per their current terms. We include screenshots so you can’t miss a tap.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-black p-6">
+          <div class="mb-2 text-sm font-semibold text-[var(--wc-green)]">2. Build Momentum</div>
+          <p class="text-zinc-300">Use our Acorns Referral System to bring in friends and stack promos. We share scripts that convert.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-black p-6">
+          <div class="mb-2 text-sm font-semibold text-[var(--wc-green)]">3. Scale a Hustle</div>
+          <p class="text-zinc-300">Apply the eBay Hustle Playbook to list fast, rank better, and move product — even if you’re brand‑new.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-black">Frequently Asked Questions</h2>
+      <div class="mt-6 grid gap-4 md:grid-cols-2">
+        <details class="rounded-xl border border-white/10 p-5 open:bg-black">
+          <summary class="cursor-pointer text-lg font-semibold">Is the SoFi $25 bonus guaranteed?</summary>
+          <p class="mt-2 text-zinc-300">Bonuses are controlled by SoFi and can change. Our guide shows how to qualify based on current public terms when we wrote it. Always check SoFi’s official page before you start.</p>
+        </details>
+        <details class="rounded-xl border border-white/10 p-5 open:bg-black">
+          <summary class="cursor-pointer text-lg font-semibold">Do I need money for the Acorns system?</summary>
+          <p class="mt-2 text-zinc-300">Our method focuses on referral mechanics and messaging. You’ll see where small deposits may be required for promos — but we show options to minimize your out‑of‑pocket.</p>
+        </details>
+        <details class="rounded-xl border border-white/10 p-5 open:bg-black">
+          <summary class="cursor-pointer text-lg font-semibold">What’s inside the eBay Hustle Playbook?</summary>
+          <p class="mt-2 text-zinc-300">Product ideas, title formulas, listing checklist, photography angles, pricing tactics, and a one‑hour launch plan to publish your first items fast.</p>
+        </details>
+        <details class="rounded-xl border border-white/10 p-5 open:bg-black">
+          <summary class="cursor-pointer text-lg font-semibold">Do you offer refunds?</summary>
+          <p class="mt-2 text-zinc-300">Digital products are generally non‑refundable, but if something’s broken or misleading, contact us and we’ll make it right.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <div class="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
+        <div class="flex items-center gap-3">
+          <img src="/wercash.png" alt="WeRCash logo" class="h-8 w-auto"/>
+          <span class="text-sm font-extrabold tracking-wider">WeRCash</span>
+        </div>
+        <div class="text-sm text-zinc-400">
+          <a class="hover:text-white" target="_blank" rel="noopener" href="https://www.youtube.com/@WeRSnakeNation">YouTube</a>
+          <span class="mx-2 opacity-40">•</span>
+          <a class="hover:text-white" href="#faq">FAQ</a>
+          <span class="mx-2 opacity-40">•</span>
+          <a class="hover:text-white" href="mailto:contact@wercash.com">contact@wercash.com</a>
+        </div>
+      </div>
+      <p class="mt-3 text-xs text-zinc-500">© <span id="year"></span> WeRCash. Educational content only; not financial advice. Provider terms apply.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts: year, copy link, UTM, JSON‑LD placeholders -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const copyBtn = document.getElementById('copy-sofi');
+    const sofiLink = document.getElementById('sofi-link');
+    copyBtn?.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(sofiLink.href);
+        copyBtn.textContent = 'Copied!';
+        setTimeout(() => (copyBtn.textContent = 'Copy link'), 1500);
+        window.dataLayer = window.dataLayer || []; window.dataLayer.push({event:'copy_sofi_link'});
+      } catch (e) { alert('Could not copy link'); }
+    });
+
+    // UTM add for Etsy
+    const utm = 'utm_source=wercash&utm_medium=site&utm_campaign=ebooks';
+    ['etsy-acorns','etsy-ebay'].forEach(id => {
+      const a = document.getElementById(id);
+      if (!a) return;
+      try {
+        const url = new URL(a.href);
+        if (!url.searchParams.has('utm_source')) {
+          url.search += (url.search ? '&' : '?') + utm;
+          a.href = url.toString();
+        }
+      } catch {}
+      a?.addEventListener('click', () => {
+        window.dataLayer = window.dataLayer || []; window.dataLayer.push({event:'click_etsy', id});
+      });
+    });
+  </script>
+</body>
+</html>
